@@ -1,0 +1,54 @@
+int main(){
+
+    float valor_a,valor_b;
+    float resultado;
+    char operacao;
+
+    printf("Digite o valor a: ");
+    scanf("%f",&valor_a);
+    printf("Digite o valor b: ");
+    scanf("%f" ,&valor_b);
+
+    printf("[S]Soma | [U]Subtracao | [M]Multiplicacao [D]Divisao");
+    printf("DIgite a operacao:");
+    scanf("%s",&operacao);
+    //Calculo das operacoes
+if(operacao == 'S' || operacao == 's'){
+resultado = valor_a + valor_b;
+}else if(operacao == 'U' || operacao == 'u'){
+    resultado = valor_a - valor_b;
+}else if(operacao == 'M' || operacao == 'M'){
+    resultado = valor_a*valor_b;
+}else if (operacao == 'D' || operacao == 'd'){
+    resultado = valor_a/valor_b;
+}else {
+    printf("Erro; divisao por zero!\n")
+    return 1;
+}
+}
+else{
+    printf("Operacao invalida!\n");
+
+    //Saida do valor
+    printf("Meu resultado e %.2F\n", resultado)
+
+    return 0;
+}
+if (valor_b != 0){
+    resultado = valor_a / valor_b;
+} else {
+    printf("Erro: divisao por zero!\n")
+    return 1;
+}
+}
+ else{
+    printf("Operacao invalida!\n");
+    return 1
+
+ }
+}
+    //Saida do valor
+    printf("MEu resultado e %f", resultado);    
+
+    return 0;
+    }

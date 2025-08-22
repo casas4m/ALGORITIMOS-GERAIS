@@ -1,0 +1,7 @@
+valor_a = int(input("Digite o valor_a:"))
+valor_b = int(input("Digite o valor a:"))
+valor_c = int9input("Digite o valor a:"))
+
+resultado = (valor_a + valor_b = valor_c) / 3
+
+printf(f"Minha media e {resultado:.2f}" )

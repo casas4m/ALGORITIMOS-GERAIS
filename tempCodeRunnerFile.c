@@ -1,7 +1,7 @@
 #include <studio.h>
 
 int main(){
-    int valor_b;
+ int valor_b;
 int valor_C;
 int soma;
 
@@ -21,10 +21,12 @@ printf("digite o valor a;");
 sacnf ("&d", &valor_a);
 
 printf("digite o valor b;");
-sacnf ("&d", &valor_b)
+scanf("&d", &valor_b)
 
 printf("digite o valor c;");
-sacnf ("&d", &valor_c);
+scanf ("&d", &valor_c);
+
+resultado = (valor_a + valor_b + valor_C) / 
 return 0;
 
 }
